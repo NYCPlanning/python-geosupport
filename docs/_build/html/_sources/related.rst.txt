@@ -29,7 +29,7 @@ Related Projects
 
 
 * `python-geoclient`_
-  Geocode with Python using the RESTful NYC Geoclient API. An updated lib of `nyc_geoclient`.
+  Geocode with Python using the RESTful NYC Geoclient API.
 
 
 

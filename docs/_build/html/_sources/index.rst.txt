@@ -6,10 +6,8 @@
 =================
 Python-Geosupport
 =================
+|Build Status| |Latest Version| |Supported Python versions|
 
-.. image:: https://ci.appveyor.com/api/projects/status/5uocynec8e3maeeq?svg=true
-.. image:: https://img.shields.io/pypi/v/python-geosupport.svg
-.. image:: https://img.shields.io/badge/python-2.7%20%7C%203.4+-blue.svg
 
 Python bindings for NYC `Geosupport Desktop Edition`_.
 
@@ -29,3 +27,11 @@ Contents
    help
    development
    related
+
+
+.. |Build Status| image:: https://ci.appveyor.com/api/projects/status/5uocynec8e3maeeq?svg=true&branch=master
+   :target: https://ci.appveyor.com/project/ishiland/python-geosupport
+.. |Latest Version| image:: https://img.shields.io/pypi/v/python-geosupport.svg
+   :target: https://pypi.python.org/pypi/python-geosupport/
+.. |Supported Python versions| image:: https://img.shields.io/badge/python-2.7%20%7C%203.4+-blue.svg
+   :target: https://www.python.org/downloads/release/python-360/
