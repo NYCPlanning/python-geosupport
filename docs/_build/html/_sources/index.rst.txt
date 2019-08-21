@@ -3,12 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-==================
+=================
 Python-Geosupport
-==================
+=================
 
 .. image:: https://ci.appveyor.com/api/projects/status/5uocynec8e3maeeq?svg=true
 .. image:: https://img.shields.io/pypi/v/python-geosupport.svg
+.. image:: https://img.shields.io/badge/python-2.7%20%7C%203.4+-blue.svg
 
 Python bindings for NYC `Geosupport Desktop Edition`_.
 
@@ -19,7 +20,7 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    installation
    configuration
@@ -28,45 +29,3 @@ Contents
    help
    development
    related
-
-Quickstart
-----------
-
-.. code-block:: sh
-
-   $ pip install python-geosupport
-
-Basic Usage:
-
-.. code-block:: python
-
-   # Import the library and create a `Geosupport` object.
-   from geosupport import Geosupport
-   g = Geosupport()
-
-   # Call the address processing function by name
-   result = g.address(house_number=125, street_name='Worth St', borough_code='Mn')
-
-
-`result` is a dictionary with the output from Geosupport:
-
-.. code-block:: js
-
-   {
-       '2010 Census Block': '1012',
-       '2010 Census Tract': '31',
-       'Assembly District': '65',
-       'Atomic Polygon': '112',
-       'B10SC - First Borough and Street Code': '14549001010',
-       'BOE Preferred B7SC': '14549001',
-       'BOE Preferred Street Name': 'WORTH STREET',
-       'BOROUGH BLOCK LOT (BBL)': {
-           'BOROUGH BLOCK LOT (BBL)': '1001680032',
-           'Borough Code': '1',
-           'Tax Block': '00168',
-           'Tax Lot': '0032'
-       },
-       'Blockface ID': '0212261942',
-       ...
-   }
-
