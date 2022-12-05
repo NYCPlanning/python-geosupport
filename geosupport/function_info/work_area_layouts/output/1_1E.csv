@@ -59,7 +59,12 @@ Borough of Census Tract,1,217,217,Internal,,,
 2000 Census Tract,6,235,240,,,,CT
 2000 Census Block,4,241,244,,,,
 2000 Census Block Suffix,1,245,245,,,,
+2020 Census Tract,6,762,767,,,,CT
+2020 Census Block,4,768,771,,,,
+2020 Census Block Suffix,1,772,772,,,,
 Neighborhood Tabulation Area (NTA),4,246,249,,,,
+2020 Neighborhood Tabulation Area (NTA),6,773,778,,,,
+2020 Community District Tabulation Area (CDTA),4,779,782,,,,
 DSNY Snow Priority Code,1,250,250,Dept. of Sanitation,,,
 DSNY Organic Recycling Schedule,5,251,255,Dept. of Sanitation,,,
 DSNY Bulk Pickup Schedule,5,256,260,Dept. of Sanitation,,,
